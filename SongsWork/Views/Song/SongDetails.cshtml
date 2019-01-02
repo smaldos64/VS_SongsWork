@@ -6,3 +6,17 @@
 
 <h2>Song Details</h2>
 
+SongID : @Model.SongID
+<br />
+Song Title : @Model.SongTitle
+<br />
+Genre ID : @Model.GenreID
+<br />
+Genre : @Model.Genre.GenreTitle
+
+<br />
+<br />
+@Html.ActionLink("Tilbage til forside", "Index", "Home")
+<br />
+<br />
+@Html.ActionLink("Tilbage til Sang Liste", "SongList", "Song")

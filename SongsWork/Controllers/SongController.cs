@@ -18,6 +18,12 @@ namespace SongsWork.Controllers
             return View(SongList);
         }
 
+        public ActionResult SongList()
+        {
+            List<Song> SongList = db.Songs.ToList();
+            return View(SongList);
+        }
+
         public ActionResult SongDetails(int Id)
         {
             Song Song_Object = db.Songs.Find(Id);

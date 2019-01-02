@@ -218,6 +218,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Song\Index.cshtml" />
     <Content Include="Views\Song\SongDetails.cshtml" />
+    <Content Include="Views\Song\SongList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
