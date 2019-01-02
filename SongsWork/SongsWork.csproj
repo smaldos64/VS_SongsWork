@@ -170,6 +170,7 @@
     <Compile Include="Models\Song_Album_Relation.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\StringHandlingTools.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -216,9 +217,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Song\Index.cshtml" />
     <Content Include="Views\Song\SongDetails.cshtml" />
     <Content Include="Views\Song\SongList.cshtml" />
+    <Content Include="Views\Song\CreateSong.cshtml" />
+    <Content Include="Views\Song\EditSong.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
